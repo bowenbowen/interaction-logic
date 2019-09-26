@@ -162,7 +162,7 @@ def interact():
         if feedChoice == "1":   # to feed dry cat food
             pet1["energy"] += 5
             pet1["feeling"] -= 3
-            print pet1["name"] + " seems to a bit reluctant to eat. But she eats it in the end."
+            print pet1["name"] + " seems to be a bit reluctant to eat. But she eats it in the end."
             time.sleep(2)  # delay 2 sec
         elif feedChoice == "2":   # to feed fish
             pet1["energy"] += 8
