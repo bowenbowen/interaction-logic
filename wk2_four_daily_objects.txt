@@ -1,0 +1,72 @@
+// ---------------- Object 1: A lamp ----------------
+
+Python:
+myLamp = True           # the lamp is on
+myLamp = False          # the lamp is turned off
+
+Javascript:
+var myLamp = true;      // the lamp is on
+myLamp = false;         // the lamp is turned off
+
+C:
+boolean myLamp = true;  // the lamp is on
+myLamp = false;         // the lamp is turned off
+
+
+
+// ---------------- Object 2: A sign on the wall ----------------
+
+Python:
+wallSign = "This studio is for CREATIVITY not QUIETIVITY"
+
+Javascript:
+var wallSign = "This studio is for CREATIVITY not QUIETIVITY";
+
+C:
+char wallSign = "This studio is for CREATIVITY not QUIETIVITY";
+
+
+
+// ---------------- Object 3: All the chairs in the studio  ----------------
+
+Python:
+chairNum = 40         # there are 40 chairs in the studio
+
+Javascript:
+var chairNum = 40;   // there are 40 chairs in the studio
+
+C:
+int chairNum = 40;   // there are 40 chairs in the studio
+
+
+
+// ---------------- Object 4: My backpack ----------------
+
+Python:
+myBackpack = {“laptop”: "grey", "bottle”: "silver", "wallet”: “black and white”, "keys": "copper"}
+print myBackpack
+print myBackpack[“laptop”]  
+
+Javascript:
+var myBackpack = {“laptop”: "grey", "bottle”: "silver", "wallet”: “black and white”, "keys": "copper"};
+console.log(myBackpack);
+console.log(myBackpack.laptop);
+
+C:
+typedef struct backpack{
+  char *laptop;
+  char *bottle;
+  char *wallet;
+  char *keys;
+} contents;
+
+struct backpack;
+
+//??????
+typedef struct {
+  char *fuel_type;
+  char *model;
+  char *color;
+} tesla;
+
+struct tesla s;
