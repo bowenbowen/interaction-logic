@@ -1,3 +1,6 @@
+# existing bug: the values of pet["energy"] doesn't stay in the range
+# reason: The c;lamp function only get excuted every 5 sec with the update function
+
 # importing "time" for time-related operations 
 import time  
 # for timer 
@@ -77,7 +80,7 @@ def statusUpdate():
         pet1["energy"] -= 1  
 
         pet1["feeling"] = clamp(pet1["feeling"], 0, 100) # limit the status values within the 0-100 range.
-        pet1["energy"] = clamp(pet1["feeling"], 0, 100)  # see top for the clamp() function 
+        pet1["energy"] = clamp(pet1["energy"], 0, 100)  # see top for the clamp() function 
 
 
         if pet1["feeling"] <= 70:
@@ -175,8 +178,8 @@ def interact():
             print pet1["name"] + " seems relunctant to eat. You presses " + pet1["name"] + "'s head into the bowl and forced her to finish it."
             time.sleep(2)  # delay 2 sec
         elif feedChoice == "4":   # to feed meat
-            pet1["feeling"] += 10
-            print "The fish must be yummy. You can see it from " + pet1["name"] + "'s face."
+            pet1["energy"] += 10
+            print "The meat must be yummy. You can see it from " + pet1["name"] + "'s face."
             time.sleep(2)  # delay 2 sec
         interact()
 
@@ -199,3 +202,9 @@ def interact():
         print "Type '3' to play music to "+ pet1["name"]
 
 interact()
+
+
+
+
+
+
