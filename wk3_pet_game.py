@@ -1,5 +1,5 @@
 # existing bug: the values of pet["energy"] doesn't stay in the range
-# reason: The c;lamp function only get excuted every 5 sec with the update function
+# reason: The clamp function only get excuted every 5 sec with the update function
 
 # importing "time" for time-related operations 
 import time  
