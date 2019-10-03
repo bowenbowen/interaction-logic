@@ -57,8 +57,8 @@ class Character {
   constructor(ix, iy, size) { // pass x and indexes, as well as textsize
 
     // top left corner cordinates because of alignment setting
-    this.x = (width - boxSize * colNum) / 2 /*horitontal margin*/ + boxSize * ix; // x position
-    this.y = (height - boxSize * rowNum) / 2 /*verticle margin*/ + boxSize * iy; // y position
+    this.x = (width - boxSize * colNum) / 2 /*horitontal margin*/ + boxSize * ix + boxSize/2; // x position
+    this.y = (height - boxSize * rowNum) / 2 /*verticle margin*/ + boxSize * iy + boxSize/2; // y position
     
     this.ix = ix;
     this.iy = iy;
