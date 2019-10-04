@@ -1,3 +1,5 @@
+// online preview: https://editor.p5js.org/bowenxbowen/full/D_l68qBI7
+
 let rowNum = 8;
 let colNum = 8;
 let boxSize = 70;
