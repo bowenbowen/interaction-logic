@@ -8,11 +8,11 @@
 
 ##### This is a repository for all my assignments for this subject.
 
-
+<br/>
 
 ## Assignments Week 1
 
-
+<br/>
 
 ## Assignments Week 2
 
@@ -28,7 +28,7 @@ Create your own story algorithm. You can modify an example from class (story mak
 	- variables (int or float, string, boolean)
 	- concatenation
 
-
+<br/>
 
 ## Assignments Week 3
 
@@ -50,20 +50,20 @@ Some inspirations can be: puzzle games, a sudoku checker, a card or dice games, 
 
 To start, it will help to break down your game as variables, datatypes and objects. Use a flow-chart and plan your game before writing any code. You can work in groups of 2, pair coding. Next week we will be play-testing our games in class.
 
-
+<br/>
 
 ## Assignments Week 4
 
 Create a generative artwork or study using loops and repetition.
 
-
+<br/>
 
 ## Assignments Week 5
 
 ### Visualizing Sensor Data
 Visualize live sensor data from Arduino to your browser.
 
-
+<br/>
 
 ## Assignments Week 6
 
@@ -79,7 +79,6 @@ Remember:
 - loadImage(), image()
 - and more!
 
-<br/>
 
 #### CODE OPTION 2. Take "Almost pong" and make it a real game.
 
@@ -90,7 +89,7 @@ Remember:
 - (advanced) try control the players with potentiometers (or something else!) + arduino
 - (advanced) try controlling the paddles with your phone + rotation!
 
-
+<br/>
 
 ## Assignments Week 7
 
